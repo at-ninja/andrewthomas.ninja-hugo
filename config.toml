@@ -1,0 +1,46 @@
+title = "Andrew Thomas"
+baseURL = "https://andrewthomas.ninja"
+tags = ["portfolio"]
+languageCode = "en-US"
+config = "config.toml"
+theme = "osprey"
+canonifyURLS = true
+googleAnalytics = ""
+disqusShortname = "andrewthomas"
+disableKinds = ["taxonomy", "taxonomyTerm"] # This theme does not currently use "tag" and "category" taxonomies
+
+[Params]
+    tagline = "Andrew Thomas"
+    author = "Andrew Thomas"
+    description = "Software Developer and 3D Printing enthusiast located in the DC area."
+    logoBig = "/images/NinjaLogo.png"
+    logoSmall = "/images/NinjaLogo.png"
+    favicon = "favicon.ico"
+    opengraphImage = "/images/osprey.png"
+    linkedin = "andrewchristianthomas"
+    github = "chattahippie"
+    email = "hello@andrewthomas.ninja"
+    googleTagManager = ""
+    highlightJS = true
+    copyright = true
+    credit = false
+    customCSS = false
+    cacheBustCSS = false
+    cacheBustJS = false
+    ajaxFormspree = true
+
+[permalinks]
+    gallery = "/" # Redirect gallery index to home page
+
+[[menu.main]]
+    name = "About"
+    url  = "/#about"
+    weight = 1
+[[menu.main]]
+    name = "Projects"
+    url  = "/#work"
+    weight = 2
+[[menu.main]]
+    name = "Contact"
+    url  = "/#contact"
+    weight = 3
