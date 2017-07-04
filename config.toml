@@ -1,5 +1,5 @@
 title = "Andrew Thomas"
-baseURL = "https://andrewthomas.ninja"
+baseURL = "http://andrewthomas.ninja"
 tags = ["portfolio"]
 languageCode = "en-US"
 config = "config.toml"
