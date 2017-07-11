@@ -86,7 +86,7 @@
         {{ end }}
 
         {{ if .IsHome }}
-        <header class="row middle-xs center-xs">
+        <header id="hero-top" class="row middle-xs center-xs">
             <div class="col-xs-12">
                 <div class="row middle-xs center-xs">
                     <div class="col-xs-12"><img src="{{ .Site.Params.logoBig}}" alt="{{ .Site.Title }}"></div>
@@ -100,10 +100,10 @@
 
         <nav class="row middle-xs center-xs">
             <div class="col-xs-6 col-sm-1 logo">
-                <a href="{{ .Site.BaseURL }}"><img src="{{ .Site.Params.logoSmall }}" alt="{{ .Site.Title }}"></a>
+                <a data-scroll href="#hero-top"><img src="{{ .Site.Params.logoSmall }}" alt="{{ .Site.Title }}"></a>
             </div>
             {{ range .Site.Menus.main }}
-            <div class="col-xs-4 col-sm-3"><h3><a href="{{ .URL }}">{{ .Name }}</a></h3></div>
+            <div class="col-xs-4 col-sm-3"><h3><a data-scroll href="{{ .URL }}">{{ .Name }}</a></h3></div>
             {{ end }}
             <div class="col-xs-6 col-sm-1 nav-toggle">
                 <a href="" class="nav-icon" onclick="return false"><img src="/images/icon-menu.png" alt="Open Menu"><img src="/images/icon-x.png" alt="Close Menu" style="display: none;"></a>
