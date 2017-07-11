@@ -6,5 +6,4 @@ alt = "A smart budgeting application that uses location to send you notification
 color = "#4d8673"
 link1 = "https://devpost.com/software/spendle"
 link2 = ""
-draft = false
 +++

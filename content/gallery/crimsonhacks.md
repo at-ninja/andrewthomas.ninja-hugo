@@ -6,5 +6,4 @@ alt = "CrimsonHacks 2017: The first MLH sponsored Hackathon in the state of Alab
 color = "#DDDDDD"
 link1 = "http://crimsonhacks.com"
 link2 = ""
-draft = false
 +++

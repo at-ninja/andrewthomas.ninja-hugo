@@ -1,8 +1,8 @@
----
-title: "Hi, I'm Andrew"
-date: 2017-07-01T21:14:22-04:00
-draft: false
----
++++
+title = "Hi, I'm Andrew"
+date = 2017-07-01T21:14:22-04:00
+draft = false
++++
 
 My name is Andrew Thomas, and I am a Full Stack Developer located in the Washington D.C. area.
 
