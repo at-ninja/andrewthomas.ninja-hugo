@@ -2,3 +2,6 @@
 	path = public
 	url = git@github.com:chattahippie/chattahippie.github.io.git
 	branch = master
+[submodule "themes/osprey"]
+	path = themes/osprey
+	url = https://github.com/tomanistor/osprey.git
