@@ -1,5 +1,6 @@
 title = "Andrew Thomas"
-baseURL = "http://andrewthomas.ninja"
+baseURL = "https://chattahippie.github.io"
+relativeURLs = true
 tags = ["portfolio"]
 languageCode = "en-US"
 config = "config.toml"
